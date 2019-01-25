@@ -8,7 +8,7 @@
                     <item name="sortOrder" xsi:type="number">300</item>
                     <item name="dataType" xsi:type="string">string</item>
                     <item name="formElement" xsi:type="string">input</item>
-                    <item name="label" xsi:type="string" translate="true">CSS Identifier</item>
+                    <item name="label" xsi:type="string" translate="true">Category group</item>
                     <item name="notice" xsi:type="string" translate="true">
                         An additional category’s identifier to be used by developers to add e.g. CSS classes
                     </item>
