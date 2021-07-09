@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="design">
+        <field name="category_identifier">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="sortOrder" xsi:type="number">300</item>
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="label" xsi:type="string" translate="true">Category group</item>
+                    <item name="notice" xsi:type="string" translate="true">
+                        An additional category’s identifier to be used by developers to add e.g. CSS classes
+                    </item>
+                    <item name="additionalClasses" xsi:type="string">cs-csfeature__logo</item>
+                </item>
+            </argument>
+        </field>
+    </fieldset>
+</form>
