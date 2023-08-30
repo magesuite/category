@@ -17,4 +17,20 @@
             </argument>
         </field>
     </fieldset>
+    <fieldset name="display_settings">
+        <field name="headline_html_tag">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="additionalClasses" xsi:type="string">cs-csfeature__logo</item>
+                </item>
+            </argument>
+        </field>
+        <field name="hide_headline">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="additionalClasses" xsi:type="string">cs-csfeature__logo</item>
+                </item>
+            </argument>
+        </field>
+    </fieldset>
 </form>
